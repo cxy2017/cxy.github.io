@@ -22,9 +22,9 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'inital/images/1.png') {
-      myImage.setAttribute('src', 'inital/images/1.png');
+    if(mySrc === 'initial/images/1.jpg') {
+      myImage.setAttribute('src', 'initial/images/1.jpg');
     } else {
-      myImage.setAttribute('src', 'inital/images/2.png');
+      myImage.setAttribute('src', 'initial/images/2.jpg');
     }
 }
