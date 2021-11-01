@@ -24,10 +24,8 @@ myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     alert('现有图'+ mySrc)
     if(mySrc === 'initial/images/1.jpg') {
-      alert('切换图片一')
       myImage.setAttribute('src', 'initial/images/2.png');
     } else {
       myImage.setAttribute('src', 'initial/images/1.jpg');
-        alert('切换图片二')
     }
 }
