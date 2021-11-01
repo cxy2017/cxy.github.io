@@ -22,7 +22,6 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    alert('现有图'+ mySrc)
     if(mySrc === 'initial/images/1.jpg') {
       myImage.setAttribute('src', 'initial/images/2.png');
     } else {
