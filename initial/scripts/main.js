@@ -17,3 +17,14 @@ document.querySelector('h1').onclick = function () {
         myHeading.textContent = "hello my js world!";
     }
 }
+
+let myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'inital/images/1.png') {
+      myImage.setAttribute('src', 'inital/images/1.png');
+    } else {
+      myImage.setAttribute('src', 'inital/images/2.png');
+    }
+}
